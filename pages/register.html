@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/872d0d3461.js" crossorigin="anonymous"></script>
+    <title>Registro | CAC-movies</title>
+</head>
+<body>
+    <header class="register-header">
+        <a class="header-link"  href="/home.html">
+            <i class="fas fa-film header-link-icon" aria-hidden="true"></i>
+            <h1 class="header-link-title">CAC-Movies</h1>
+        </a>
+    </header>
+    <main class="register-main">
+        <section data-aos="zoom-in" data-aos-duration="1000" class="main-background">
+            <form class="main-form" id="form">
+                <h2>Registro</h2>
+                <input id="name" class="form-input" type="text" placeholder="Nombre">
+                <span class="error-message" id="name-error"></span>
+                <input id="lastname" class="form-input" type="text" placeholder="Apellido">
+                <span class="error-message" id="lastname-error"></span>
+                <input id="email" class="form-input" type="email" placeholder="Email">
+                <span class="error-message" id="email-error"></span>
+                <input id="password" class="form-input" type="password" placeholder="Contraseña">
+                <span class="error-message" id="password-error"></span>
+                <input id="date" class="form-input-date" type="date" >
+                <span class="error-message" id="date-error"></span>
+                <select id="country" class="form-select-country" name="country" placeholder="País">
+                    <option>País</option>
+                    <option value="AR">Argentina</option>
+                    <option value="BR">Brasil</option>
+                    <option value="CL">Chile</option>
+                    <option value="UR">Uruguay</option>
+                    <option value="COL">Colombia</option>
+                    <option value="VN">Venezuela</option>
+                    <option value="PR">Perú</option>
+                    <option value="BL">Bolivia</option>
+                    <option value="PG">Paraguay</option>
+                    <option value="EC">Ecuador</option>
+                </select>
+                <span class="error-message" id="country-error"></span>
+                <div class="form-terms">
+                    <input id="check" name="terms" class="terms-check" type="checkbox" >
+                    <label for="check" class="terms-text">Acepto términos y condiciones</label>
+                    <span class="error-message" id="terms-error"></span>
+                </div>
+                <button class="form-button-submit" type="submit">Registrarse</button>
+                <a href="#" class="form-help">Necesitas ayuda?</a>
+            </form>
+        </section>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="../js/register.js"></script>
+</body>
+</html>
