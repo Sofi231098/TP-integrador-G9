@@ -157,7 +157,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 15vw; /* Cambiado a vw para hacerlo reactivo */
-  background-image: url(/assets/img/banner-bg.jpg);
+  background-image: url(../assets/img/banner-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
