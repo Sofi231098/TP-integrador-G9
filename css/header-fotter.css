@@ -43,12 +43,13 @@
     margin-right: 25px;
 }
 
-.logo:hover{
+.logoHeader:hover{
     animation-name: logo;
     animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
 
 .loginButton{
     background-color: black;
@@ -98,6 +99,7 @@
 }
 
 
+
 .linksFooter ul li{
     box-sizing: border-box;
     margin-right: 25px;
@@ -136,4 +138,13 @@
         transition: transform 0.3s, box-shadow 0.3s;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
     }
+}
+
+
+.adminButton:hover{
+    text-decoration: none;
+    color: #ffffff;
+    border-radius:6px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
 }
