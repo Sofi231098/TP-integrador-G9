@@ -6,7 +6,7 @@
 }
 
 .detailContainer{
-    background-image: linear-gradient(to right top, #6d6969a7, #6d6969a7), url(../assets/mario-bg.jpg);
+    background-image: linear-gradient(to right top, #6d6969a7, #6d6969a7), url(../assets/img_login_Mdetail/mario-bg.jpg);
     filter:drop-shadow(0px 0px 10px black);
     background-size: cover;
     background-position: center;
@@ -16,10 +16,6 @@
     align-items: center;
     color: white;
 }
-
-main{
-    margin-top: 80px;
-} 
 
 .imageDetail{
     text-align: center;
@@ -65,7 +61,7 @@ main{
     background-color: #6d6969a7;
 }
 
-.trailer h3{
+.trailer h3{   /**/
     font-size: 35px;
     font-weight: bold;
     padding: 20px;
@@ -73,7 +69,7 @@ main{
     text-align: center;
 }
 
-.trailer p{
+.trailer p{   /**/
     color:white;
     font-size: 30px;
     text-align: center;
@@ -94,9 +90,11 @@ iframe{
 .trailerLinks{
     list-style: none;
 }
+
+
 @media screen and (min-width: 1200px){
     main{
-        margin-top: 80px;
+        margin-top: 0px;
     }
     .detail h1{
         font-size: 30px;
@@ -130,9 +128,3 @@ iframe{
     }
 
 }
-
-
-
-
-
-
